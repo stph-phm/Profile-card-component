@@ -1,0 +1,40 @@
+@media (max-width:900px) {
+     .card {
+          width: 380px;
+     }
+
+     .round1 {
+          top: 400px;
+          right: -400px;
+     }
+
+     .round2 {
+          bottom: 400px;
+          left: -450px;
+
+     }
+}
+
+@media (max-width:375px) {
+     .card {
+          width: 300px;
+     }
+
+     .round1 img,
+     .round2 img {
+          width: 600px;
+     }
+
+     .round1 {
+          top: 350px;
+          left: 160px;
+     }
+
+     .round2 {
+          top: -315px;
+          left: -391px;
+     }
+}
+
+/* - Mobile: 375px
+- Desktop: 1440px */
